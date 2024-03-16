@@ -1,0 +1,39 @@
+/* Demo styles */
+  .body_div {
+    position: relative;
+    height: 100%;
+  } 
+
+   .body_div {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  } 
+
+  .swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 333px;
+    height: 455px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(231, 229, 229);
+    border-radius: 15px;
+  }.swiper-slide:hover{
+    background: #d5c5f1;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    border-radius: 7px;
+    
+  }
